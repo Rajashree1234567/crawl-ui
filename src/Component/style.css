@@ -1,0 +1,38 @@
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    border: 1px solid #a3a3a3;
+    margin: 0 auto;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+  }
+ 
+thead {
+text-align: left;
+padding: 0px 8px;
+background-color: rgb(117, 138, 147);
+box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+th, td {
+    text-align: left;
+    padding: 0px 8px;
+    border-bottom: 1px solid rgba(85, 124, 141, 0.12);
+    line-height: 40px;
+  }
+tr:nth-child(even) {
+    background-color: rgba(79, 114, 129, 0.12);
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+tr:nth-child(even):hover {
+    background-color: #ffffff;
+}
+tr:nth-child(odd):hover {
+    background-color: rgba(79, 114, 129, 0.12);
+}
+
+.btnStyle{
+    width: 200px;
+    background-color: rgb(117, 138, 147);
+    padding: 20px;
+    box-shadow: 4px 5px 4px -1px rgb(133 133 133 / 34%), -6px -1px 5px 0px rgb(255 255 255 / 14%), -11px -9px 10px 0px rgb(255 255 255 / 31%)
+}
